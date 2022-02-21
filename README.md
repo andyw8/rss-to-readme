@@ -15,6 +15,8 @@ on:
   schedule:
     # Once a day at 8 AM
     - cron: 0 8 * * *
+  # Allow manual trigger from the Action tab
+  workflow_dispatch: 
 
 jobs:
   update:
